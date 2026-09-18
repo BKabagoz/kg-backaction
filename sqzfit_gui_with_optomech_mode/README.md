@@ -2,6 +2,9 @@
 
 Interactive Python/Qt GUI for comparing calibrated DARM_ERR displacement spectra with GWINC quantum-noise models for no squeezing, frequency-independent squeezing, and frequency-dependent squeezing.
 
+This tool was developed for the analysis associated with **“Observing and Evading Quantum Back-Action on a Kilogram-Scale Oscillator”**.  
+Paper: [arXiv:2609.19317](https://arxiv.org/abs/2609.19317)
+
 The GUI plots measured spectra, GWINC model curves, zoomed-in panels around the optomechanical mode, and inferred classical residuals after subtracting the modeled quantum contribution. It also provides sliders/text boxes for fit parameters, trace visibility controls, plot-limit controls, light/dark plotting modes, and YAML export/load support for saving and restoring fit configurations.
 
 ## GUI
@@ -135,9 +138,9 @@ FitUI:
 
 Generated fit YAML files are ignored by default unless manually added to git.
 
-## LLM assistance disclosure
+## AI-assisted development
 
-The UI layout and usability refinements in this script were optimized with assistance from OpenAI GPT-5.5 Thinking. The scientific model choices, input data, parameter interpretation, and final validation remain the responsibility of the author/user. The LLM assistance was used for code organization and interface iteration, not as an independent scientific validation of the analysis.
+OpenAI language models were used to assist with code organization, interface design, and usability improvements. Scientific modeling choices, parameter definitions, experimental interpretation, and validation were performed by the author.
 
 ## Notes
 
