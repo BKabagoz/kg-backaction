@@ -1,0 +1,205 @@
+Infrastructure:
+  Length: 3995.0
+  ResidualGas:
+    H2:
+      BeamtubePressure: 2.7e-07
+      ChamberPressure: 2.7e-07
+      mass: 3.35e-27
+      polarizability: 7.8e-31
+    H2O:
+      BeamtubePressure: 1.33e-08
+      ChamberPressure: 1.33e-08
+      mass: 2.99e-26
+      polarizability: 1.5e-30
+    N2:
+      BeamtubePressure: 1.33e-08
+      ChamberPressure: 1.33e-08
+      mass: 4.65e-26
+      polarizability: 1.71e-30
+    O2:
+      BeamtubePressure: 1.0e-09
+      ChamberPressure: 1.0e-09
+      mass: 5.31e-26
+      polarizability: 1.56e-30
+  Temp: 290.0
+Laser:
+  ArmPower: 308000
+  Wavelength: 1.064e-06
+Materials:
+  Coating:
+    Alphahighn: 3.6e-06
+    Alphalown: 5.1e-07
+    Betahighn: 1.4e-05
+    Betalown: 8.0e-06
+    CVhighn: 2100000.0
+    CVlown: 1641200.0
+    Indexhighn: 2.09
+    Indexlown: 1.45
+    Phihighn: 9.0e-05
+    Phihighn_slope: 0.1
+    Philown: 1.25e-05
+    Philown_slope: 0.0
+    Sigmahighn: 0.29
+    Sigmalown: 0.19
+    ThermalDiffusivityhighn: 33.0
+    ThermalDiffusivitylown: 1.38
+    Yhighn: 120000000000.0
+    Ylown: 70000000000.0
+  MassRadius: 0.17
+  MassThickness: 0.2
+  Substrate:
+    Alphas: 5.2e-12
+    MassAlpha: 3.9e-07
+    MassCM: 739.0
+    MassDensity: 2200.0
+    MassKappa: 1.38
+    MechanicalLossExponent: 0.77
+    MirrorSigma: 0.167
+    MirrorY: 72700000000.0
+    RefractiveIndex: 1.45
+    Temp: 295.0
+    c2: 7.6e-12
+Optics:
+  BSLoss: 0.0005
+  Curvature:
+    ETM: 2192.0
+    ITM: 1970.0
+  ETM:
+    CoatingThicknessCap: 0.5
+    CoatingThicknessLown: 0.27
+    Transmittance: 5.0e-06
+  ITM:
+    CoatingAbsorption: 5.0e-07
+    CoatingThicknessCap: 0.5
+    CoatingThicknessLown: 0.308
+    Transmittance: 0.0148
+  Loss: 3.75e-05
+  MM_ARM_SRC: 0.033
+  MM_ARM_SRCphi: 0.0
+  MM_IFO_OMC: 0.057065057384945876
+  MM_IFO_OMCphi: 5.965
+  PRM:
+    Transmittance: 0.03
+  PhotoDetectorEfficiency: 0.9248875187496917
+  Quadrature:
+    dc: 1.4935741045726743
+  SRM:
+    CavityLength: 55.0
+    SRCGouy_rad: 0.7504915783575616
+    Transmittance: 0.324
+    Tunephase: .0007679448708775556
+  SubstrateAbsorption: 5.0e-05
+  Type: SignalRecycled
+  coupling: 1.0
+  is_OPD: 0.0
+  pcrit: 10.0
+Seismic:
+  Beta: 0.8
+  Gamma: 0.8
+  KneeFrequency: 10.0
+  LowFrequencyLevel: 1.0e-09
+  Omicron: 1.0
+  RayleighWaveSpeed: 250.0
+  Rho: 1800.0
+  Site: LLO
+  TestMassHeight: 1.5
+Squeezer:
+  AmplitudedB: 12.79
+  FilterCavity:
+    L: 297.55
+    L_mm: 0.024
+    Lrms: 1.7e-13
+    Lrt: 0.0001002750920904294
+    Rot: 0.0
+    Te: 1.0e-06
+    Ti: 0.000797
+    fdetune: -23.8
+    psi_mm: 0.72
+  InjectionLoss: 0.084
+  LOAngleRMS: 0.03
+  MM_SQZ_OMC: 0.0363
+  MM_SQZ_OMCphi: 5.144
+  SQZAngle: 0.12446215748786926
+  SQZAngleRMS: 0.027
+  Type: Freq Dependent
+  direct_mm_sqz_ifo: 0.0
+Suspension:
+  BreakStress: 750000000.0
+  C70Steel:
+    Alpha: 1.2e-05
+    C: 486.0
+    K: 49.0
+    Phi: 0.0002
+    Rho: 7800.0
+    Y: 212000000000.0
+    dlnEdT: -0.00025
+  Fiber:
+    EndLength: 0.045
+    EndRadius: 0.0004
+    Radius: 0.000205
+  FiberType: Tapered
+  MaragingSteel:
+    Alpha: 1.1e-05
+    C: 460.0
+    K: 20.0
+    Phi: 0.0001
+    Rho: 7800.0
+    Y: 187000000000.0
+    dlnEdT: 0.0
+  Ribbon:
+    Thickness: 0.000115
+    Width: 0.00115
+  Silica:
+    Alpha: 3.9e-07
+    C: 772.0
+    Dissdepth: 0.015
+    K: 1.38
+    Phi: 4.1e-10
+    Rho: 2200.0
+    Y: 72000000000.0
+    dlnEdT: 0.000152
+  Silicon:
+    Alpha: 1.0e-10
+    C: 300.0
+    Dissdepth: 0.0015
+    K: 700.0
+    Phi: 2.0e-09
+    Rho: 2329.0
+    Y: 155800000000.0
+    dlnEdT: -2.0e-05
+  Stage:
+  - Blade: .nan
+    Dilution: .nan
+    K: .nan
+    Length: 0.59
+    Mass: 39.6
+    NWires: 4.0
+    WireRadius: .nan
+  - Blade: 0.0042
+    Dilution: 106.0
+    K: 5200.0
+    Length: 0.341
+    Mass: 39.6
+    NWires: 4.0
+    WireRadius: 0.00031
+  - Blade: 0.0046
+    Dilution: 80.0
+    K: 3900.0
+    Length: 0.277
+    Mass: 21.8
+    NWires: 4.0
+    WireRadius: 0.00035
+  - Blade: 0.0043
+    Dilution: 87.0
+    K: 3400.0
+    Length: 0.416
+    Mass: 22.1
+    NWires: 2.0
+    WireRadius: 0.00052
+  Temp: 290.0
+  Type: Quad
+TCS:
+  SRCloss: 0.0
+  s_cc: 7.024
+  s_cs: 7.321
+  s_ss: 7.631

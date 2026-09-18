@@ -1,0 +1,28 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+conda-env/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated GUI outputs
+gwinc_fds_fit_params_*.yaml
+*.tmp
+*.log
+
+# Note: do not ignore *.mat or *.yaml globally.
+# This repository intentionally tracks the input .mat files and april9.yaml.
